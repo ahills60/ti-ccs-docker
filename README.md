@@ -6,11 +6,18 @@ This container provides:
 
 * Ubuntu 18.04 LTS
 * TI Code Composer Studio 9.2 with MSP432 and CC2xxx build tools
-* MSP432Pxxx SDK
+* MSP432Pxxx SDK v2.40.00.10
+* MSP432Exxx SDK v2.10.00.17
 
 ## Changelog
 
-### v1.0 (2020-01-16)
+### v1.1 (2020-01-16)
 
-* TI CCS 9.2.0.00013
+* TI CCS 9.2.0.00013 with MSP432 and CC2xxx build tools
+* TI SimpleLink MSP432P4 SDK v2.40.00.10
+* TI SimpleLink MSP432E4 SDK v2.10.00.17
+
+### v1.0 (2020-01-15)
+
+* TI CCS 9.2.0.00013 with MSP432 and CC2xxx build tools
 * TI SimpleLink MSP432P4 SDK v2.40.00.10
