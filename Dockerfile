@@ -19,7 +19,8 @@ RUN curl -L http://software-dl.ti.com/simplelink/esd/simplelink_msp432_sdk/2.40.
 RUN /root/Downloads/simplelink_msp432p4_sdk_2_40_00_10.run --mode unattended --prefix /opt/ti/
 RUN rm /root/Downloads/simplelink_msp432p4_sdk_2_40_00_10.run
 RUN curl -L http://software-dl.ti.com/simplelink/esd/simplelink_msp432e4_sdk/2.10.00.17/simplelink_msp432e4_sdk_2_10_00_17.run --output /root/Downloads/simplelink_msp432e4_sdk_2_10_00_17.run --silent && \
-    chmod +x /root/Downloads/simplelink_msp432e4_sdk_2_10_00_17.run --mode unattended --prefix /opt/ti/
+    chmod +x /root/Downloads/simplelink_msp432e4_sdk_2_10_00_17.run
+RUN /root/Downloads/simplelink_msp432e4_sdk_2_10_00_17.run --mode unattended --prefix /opt/ti/
 RUN rm /root/Downloads/simplelink_msp432e4_sdk_2_10_00_17.run
 RUN mkdir -p /home/build/workspace && \
     /opt/ti/ccs920/ccs/eclipse/eclipse -noSplash -data /home/build/workspace -application com.ti.common.core.initialize -rtsc.productDiscoveryPath "/opt/ti/ccs920;/opt/ti/"
